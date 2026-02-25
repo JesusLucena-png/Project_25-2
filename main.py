@@ -1,5 +1,10 @@
+import division
+import multiplation
+import resta
+import suma
+
 def main():
-    print("-"*10 + "Welcome to the calculator" + "-"*10)
+    print("\n-"*10 + "Welcome to the calculator" + "-"*10)
     print("""
     1. Addition
     2. Subtraction
@@ -8,21 +13,21 @@ def main():
           
     5. Exit""")
 
-    print("-"*45)
+    print("-\n"*45)
 
 Cont = 0 
 while Cont != 5:
     main()
-    Cont = int(input("Enter your option: "))
-    if Cont == 1:
-        Sum()    
-    elif Cont == 2:
-        Rest()
-    elif Cont == 3:
-        Mul()
-    elif Cont == 4:
-        Div()
-    elif Cont == 5:
+    Cont = input("Enter your option: ")
+    if Cont == "1":
+        suma.Sum()    
+    elif Cont == "2":
+        resta.Rest()
+    elif Cont == "3":
+        multiplation.Mul()
+    elif Cont == "4":
+        division.Div()
+    elif Cont == "5":
         break
     else:
         print("!¡!¡!¡!¡ERROR!¡!¡!¡!¡")
