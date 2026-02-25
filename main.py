@@ -4,7 +4,7 @@ import resta
 import suma
 
 def main():
-    print("\n-"*10 + "Welcome to the calculator" + "-"*10)
+    print("\n"+"-"*10 + "Welcome to the calculator" + "-"*10)
     print("""
     1. Addition
     2. Subtraction
@@ -13,7 +13,7 @@ def main():
           
     5. Exit""")
 
-    print("-\n"*45)
+    print("\n"+"-"*45+"\n")
 
 Cont = 0 
 while Cont != 5:
