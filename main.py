@@ -15,7 +15,7 @@ while Cont != 5:
     main()
     Cont = int(input("Enter your option: "))
     if Cont == 1:
-        Sum()
+        Sum()    
     elif Cont == 2:
         Rest()
     elif Cont == 3:
