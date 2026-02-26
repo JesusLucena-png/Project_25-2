@@ -1,140 +1,141 @@
-<<<<<<< HEAD
-=======
-# Calculadora de Consola en Python
+# Console Calculator in Python
 
-Aplicación de consola desarrollada en Python que permite realizar operaciones matemáticas básicas de forma segura, controlada y con manejo de errores.
+A console application developed in Python that allows users to perform basic mathematical operations in a safe, controlled way with proper error handling.
 
-Este proyecto fue desarrollado siguiendo metodología Scrum (sprints cortos) y control de versiones con Git.
+This project was developed following the Scrum methodology (short sprints) and version control using Git.
 
 ---
 
-## Objetivo
+## Objective
 
-Desarrollar una aplicación de consola en Python que funcione como una calculadora básica, permitiendo al usuario realizar operaciones matemáticas simples sin que el sistema falle ante errores de entrada.
-
----
-
-## Alcance Funcional (MVP)
-
-La aplicación permite:
-
-- Sumar
-- Restar
-- Multiplicar
-- Dividir
-- Salir del programa
-
-### Validaciones implementadas
-
-- Verificación de que los valores ingresados sean números (`try / except`)
-- Validación de división por cero
-- Validación de opción de menú
-- El programa nunca se rompe por errores del usuario
-- Permite múltiples operaciones hasta que el usuario decida salir
+To develop a Python console application that works as a basic calculator, allowing the user to perform simple mathematical operations without the system crashing due to input errors.
 
 ---
 
-## Requisitos Técnicos
+## Functional Scope (MVP)
 
-- Lenguaje: **Python**
-- Uso obligatorio de:
-  - `if / elif / else`
-  - `try / except`
-- Código organizado en funciones
-- Archivo principal: `main.py`
-- Mensajes claros en consola
+The application allows users to:
+
+* Add
+* Subtract
+* Multiply
+* Divide
+* Exit the program
+
+### Implemented Validations
+
+* Verification that the entered values are numbers (`try / except`)
+* Division by zero validation
+* Menu option validation
+* The program never crashes due to user errors
+* Allows multiple operations until the user decides to exit
 
 ---
 
-## Estructura del Proyecto
+## Technical Requirements
+
+* Language: **Python**
+* Mandatory use of:
+
+  * `if / elif / else`
+  * `try / except`
+* Code organized into functions
+* Main file: `main.py`
+* Clear console messages
+
+---
+
+## Project Structure
 
 ```
-calculadora/
+calculator/
 │── main.py
 │── README.md
 ```
 
 ---
 
-## Metodología Scrum
+## Scrum Methodology
 
-El proyecto se desarrolló en sprints cortos:
+The project was developed in short sprints:
 
 ### Sprint 1
-- Mostrar menú
-- Implementar suma y resta
-- Manejo básico de errores
+
+* Display menu
+* Implement addition and subtraction
+* Basic error handling
 
 ### Sprint 2
-- Agregar multiplicación y división
-- Validación de división por cero
-- Organización en funciones
+
+* Add multiplication and division
+* Division by zero validation
+* Organize code into functions
 
 ### Sprint 3
-- Mejoras en experiencia de usuario
-- Validaciones más robustas
-- Limpieza y refactorización
+
+* Improve user experience
+* More robust validations
+* Code cleaning and refactoring
 
 ---
 
-## Flujo de Trabajo con Git
+## Git Workflow
 
-Estructura de ramas utilizada:
+Branch structure used:
 
-- `main`
-- `develop`
-- `feature/menu`
-- `feature/Procesos`
-- `feature/validaciones`
+* `main`
+* `develop`
+* `feature/menu`
+* `feature/processes`
+* `feature/validations`
 
-Prácticas aplicadas:
+Practices applied:
 
-- `git checkout -b`
-- `git merge`
-- Resolución de conflictos simples
-- Commits claros y descriptivos
+* `git checkout -b`
+* `git merge`
+* Simple conflict resolution
+* Clear and descriptive commits
 
-Ejemplo de buen commit:
+Example of a good commit:
 
 ```
-feat: agregar validación de división por cero
+feat: add division by zero validation
 ```
 
 ---
 
-## Historia de Usuario
+## User Story
 
-**Como usuario**  
-Quiero realizar operaciones matemáticas básicas  
-Para obtener resultados sin que el sistema falle ante errores  
-
----
-
-## Criterios de Aceptación
-
-- El programa nunca debe cerrarse por un error de entrada.
-- Debe seguir ejecutándose hasta que el usuario elija salir.
-- Debe mostrar mensajes claros y entendibles.
-- El código debe estar organizado en funciones.
+**As a user**
+I want to perform basic mathematical operations
+So that I can get results without the system crashing due to errors
 
 ---
 
-## Mejoras Opcionales
+## Acceptance Criteria
 
-- Contador de operaciones realizadas
-- Historial simple de operaciones
-- Confirmación antes de salir
-- Refactorización adicional
+* The program must never close due to an input error.
+* It must continue running until the user chooses to exit.
+* It must display clear and understandable messages.
+* The code must be organized into functions.
 
 ---
 
-## Autores
+## Optional Improvements
 
-- Jesus Lucena.
-- Aura Alean.
-- Nicholas De la Rosa.
-- Jhon Salgado.
-- Yasir Quintero.
+* Counter of completed operations
+* Simple operation history
+* Exit confirmation
+* Additional refactoring
 
-Proyecto académico / práctica profesional
->>>>>>> bb17a3e26c06c2bffb68e5137561d0828ac0e83d
+---
+
+## Authors
+
+* Jesus Lucena
+* Aura Alean
+* Nicholas De la Rosa
+* Jhon Salgado
+* Yasir Quintero
+
+Academic project / professional practice
