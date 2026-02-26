@@ -16,19 +16,19 @@ Desarrollar una aplicación de consola en Python que funcione como una calculado
 
 La aplicación permite:
 
-- ✅ Sumar
-- ✅ Restar
-- ✅ Multiplicar
-- ✅ Dividir
-- ✅ Salir del programa
+- Sumar
+- Restar
+- Multiplicar
+- Dividir
+- Salir del programa
 
 ### Validaciones implementadas
 
-- ✔️ Verificación de que los valores ingresados sean números (`try / except`)
-- ✔️ Validación de división por cero
-- ✔️ Validación de opción de menú
-- ✔️ El programa nunca se rompe por errores del usuario
-- ✔️ Permite múltiples operaciones hasta que el usuario decida salir
+- Verificación de que los valores ingresados sean números (`try / except`)
+- Validación de división por cero
+- Validación de opción de menú
+- El programa nunca se rompe por errores del usuario
+- Permite múltiples operaciones hasta que el usuario decida salir
 
 ---
 
@@ -54,28 +54,28 @@ calculadora/
 
 ---
 
-## 🧠 Metodología Scrum
+## Metodología Scrum
 
 El proyecto se desarrolló en sprints cortos:
 
-### 🟢 Sprint 1
+### Sprint 1
 - Mostrar menú
 - Implementar suma y resta
 - Manejo básico de errores
 
-### 🟡 Sprint 2
+### Sprint 2
 - Agregar multiplicación y división
 - Validación de división por cero
 - Organización en funciones
 
-### 🔵 Sprint 3
+### Sprint 3
 - Mejoras en experiencia de usuario
 - Validaciones más robustas
 - Limpieza y refactorización
 
 ---
 
-## 🔀 Flujo de Trabajo con Git
+## Flujo de Trabajo con Git
 
 Estructura de ramas utilizada:
 
@@ -100,7 +100,7 @@ feat: agregar validación de división por cero
 
 ---
 
-## 📖 Historia de Usuario
+## Historia de Usuario
 
 **Como usuario**  
 Quiero realizar operaciones matemáticas básicas  
@@ -108,7 +108,7 @@ Para obtener resultados sin que el sistema falle ante errores
 
 ---
 
-## ✅ Criterios de Aceptación
+## Criterios de Aceptación
 
 - El programa nunca debe cerrarse por un error de entrada.
 - Debe seguir ejecutándose hasta que el usuario elija salir.
@@ -117,7 +117,7 @@ Para obtener resultados sin que el sistema falle ante errores
 
 ---
 
-## 🔥 Mejoras Opcionales
+## Mejoras Opcionales
 
 - Contador de operaciones realizadas
 - Historial simple de operaciones
@@ -126,7 +126,7 @@ Para obtener resultados sin que el sistema falle ante errores
 
 ---
 
-## 👨‍💻 Autores
+## Autores
 
 - Jesus Lucena.
 - Aura Alean.
