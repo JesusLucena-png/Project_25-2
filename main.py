@@ -1,4 +1,5 @@
 import os
+
 def limpiar_pantalla():
     os.system("cls" if os.name == "nt" else "clear")
 
@@ -35,6 +36,7 @@ def main():
     5. Exit""")
 
     print("\n"+"-"*45+"\n")
+
 
 Cont = 0 
 while Cont != 5:
